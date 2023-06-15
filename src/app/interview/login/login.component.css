@@ -1,0 +1,123 @@
+
+.split {
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 50%;
+    overflow-x: hidden;
+  }
+  
+  #left {
+    left: 0;
+    /* background-image: url('https://www.simplilearn.com/ice9/free_resources_article_thumb/Job_Interview_Statistics_and_Trends_for_2021.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .right {
+  right: 0;
+  margin-top: 45px;
+  background-color: #f1f1f1;
+  background-color: #FFFFFF;
+  width: 50%;
+  float: left;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  /* Style the login form container */
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+
+  /* Basic form styles */
+  .login-form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  
+  label {
+    margin-bottom: 5px;
+  }
+ 
+  input[type="text"],
+  input[type="password"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+     border: none; 
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e413e;
+  }
+  
+  /* reCAPTCHA styles
+  .g-recaptcha {
+    margin: 10px 0;
+  } */
+   
+  .forgot-password {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  .forgot-password a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+  
+  }
+  
+  .forgot-password a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+ 

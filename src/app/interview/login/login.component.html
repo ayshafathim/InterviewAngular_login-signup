@@ -1,0 +1,47 @@
+
+<div>
+ 
+  <div id="left">
+    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Job_Interview_Statistics_and_Trends_for_2021.jpg">
+  </div>
+  
+  <div class="split right">
+    <div class="login-container">
+      <!-- Login form goes here -->
+      <form id="login-form">
+        <div class="username">
+        <label for="username">Email</label>
+        <input type="text" id="username" name="username" [(ngModel)]="cred.email" required></div>
+        <div class="password">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" [(ngModel)]="cred.password" required></div>
+      
+        <!-- <div class="g-recaptcha" data-sitekey="your_site_key"></div> -->
+      
+        <button type="submit"  >Log in</button>
+       
+
+        <div class="forgot-password">
+          <a (click)="setCookie()">Save Cookies</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a (click)="submit()">Forgot Password?</a>
+          </div>
+          
+        <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+
+      </form> 
+      <p class="signup here">
+        Don't have an account ? <a (click)="submit()" ><b>Signup here</b></a></p>
+    </div>
+  </div>
+</div>  
+
+
+
+
+
+   
+  
+
+
+
+
